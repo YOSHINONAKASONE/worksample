@@ -1,2 +1,8 @@
 ワークサンプル1【見出しの作成】
-Rails入門に向けて
+
+#Railsとは
+
+##RubyとRuby on Railsの違い
+
+###Ruby on Railsでできること
+
