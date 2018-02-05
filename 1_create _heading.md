@@ -1,8 +1,10 @@
 ワークサンプル1【見出しの作成】
 
-#Railsとは
+#Ruby on Railsとは
 
-##RubyとRuby on Railsの違い
+これまで学習してきたRubyは「こういう表現をしたいよ」「こういうデータ集計をしたいよ」など、命令を出すための**プログラミング言語**ですが、Ruby on Rails(以下Rails)は、そのRubyの言語を使い、
+
+##フレームワークとは
 
 ###Ruby on Railsでできること
 
