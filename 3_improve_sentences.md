@@ -1,1 +1,1 @@
-# worksample
+# Ruby内で扱うselfについて
