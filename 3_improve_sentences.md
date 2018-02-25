@@ -17,9 +17,9 @@
 class School　　　⇒Schoolというクラスが設定されました。    
 attr_accessor :name　　　⇒Schoolクラス外部からSchoolクラス内のメソッドが呼び出された際に、   
 <span>　　　　　　　　　　　　　</span>nameとして指定されている値は変更できる。    
-def initialize(name)　⇒newとしてインスタンスを呼び出した際にこのメソッドが実行される。      
-    self.name = name    
-   end   
+def initialize(name)　　　⇒newとしてインスタンスを呼び出した際にこのメソッドが実行される。    　
+self.name = name　　　⇒
+   end  　 
  end    
 a_school = School.new("A学校")    
 puts(a_school.name)     
