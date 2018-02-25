@@ -17,19 +17,16 @@
 class School　　　⇒Schoolというクラスが設定されました。    
 attr_accessor :name　　　⇒Schoolクラス外部からSchoolクラス内のメソッドが呼び出された際に、   
 <span>　　　　　　　　　　　　　</span>nameとして指定されている値は変更できる。    
-def initialize(name)　　　⇒newとしてインスタンスを呼び出した際にこのメソッドが実行される。    　
-self.name = name　　　⇒
+def initialize(name)　　　⇒newとしてインスタンスを呼び出し、それの後に値を渡すと    
+<span>　　　　　　　　　　　　　</span>このメソッドの情報がその値に更新される。    
+self.name = name　　　⇒selfオブジェクトとnameの値をここで紐づけます。これにより、クラス外部でnameを呼び出せる。
    end  　 
  end    
 a_school = School.new("A学校")    
 puts(a_school.name)     
 b_school = School.new("B学校")    
 puts(b_school.name)
-
-
-ご存知の通り、クラスを作るだけでは実際に処理が行われるわけではありません。    
-クラスを基に実際に処理を実装するインスタンスオブジェクトを作る必要があります。
-ひとつのクラスから多様なインスタンスオブジェクトを作る際、それぞれが保有する情報に違いがあります。   
-⇒例えば、同じような作り方でも、カレーとシチューは違う食べ物。   
-インスタンスごとに違ってくる情報を簡単に更新するには、クラスの中で更新できるための設計が必要です。
+### このコードで出力されるのは
+A学校
+B学校
 
