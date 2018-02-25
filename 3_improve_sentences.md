@@ -6,18 +6,16 @@
 「インスタンスオブジェクト」⇒設計図を基に作ったシステムの実体    
 **※クラスは基となる設計図なので、簡単にそこに格納されているメソッドの内容を外部から変更できません。**
 ## どういう場面で使うのか
-下記のコードを見てみましょう。
-class School
-  attr_accessor :name
-  def initialize(name)
-    self.name = name
-  end
-end
-
-a_school = School.new("A学校")
-puts(a_school.name)
-
-b_school = School.new("B学校")
+下記のコードを見てみましょう。    
+class School     
+attr_accessor :name    
+  def initialize(name)      
+    self.name = name    
+   end   
+ end    
+a_school = School.new("A学校")    
+puts(a_school.name)     
+b_school = School.new("B学校")    
 puts(b_school.name)
 
 
