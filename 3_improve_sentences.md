@@ -19,7 +19,8 @@ attr_accessor :name　　　⇒Schoolクラス外部からSchoolクラス内の�
 <span>　　　　　　　　　　　　　</span>nameとして指定されている値は変更できる。    
 def initialize(name)　　　⇒newとしてインスタンスを呼び出し、それの後に値を渡すと    
 <span>　　　　　　　　　　　　　</span>このメソッドの情報がその値に更新される。    
-self.name = name　　　⇒selfオブジェクトとnameの値をここで紐づけます。これにより、クラス外部でnameを呼び出せる。
+self.name = name　　　 ⇒selfオブジェクトとnameの値をここで紐づけます。   
+<span>　　　　　　　　　　　　　</span>これにより、クラス外部でnameを呼び出せる。
    end  　 
  end    
 a_school = School.new("A学校")    
