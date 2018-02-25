@@ -15,7 +15,8 @@
 ### 下記のコードを見てみましょう。    
 ※スペースや行間は実際の開発環境とは差異があります。    
 class School　　　⇒Schoolというクラスが設定されました。    
-attr_accessor :name　　⇒Schoolクラス外部からSchoolクラス内のメソッドが呼び出された際に、nameとして指定されている値は変更できる。
+attr_accessor :name　　⇒Schoolクラス外部からSchoolクラス内のメソッドが呼び出された際に、   
+<span>　　　　　　</span>nameとして指定されている値は変更できる。
   def initialize(name)　⇒newとしてインスタンスを呼び出した際に      
     self.name = name    
    end   
